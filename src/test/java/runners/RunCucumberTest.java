@@ -1,12 +1,12 @@
 package runners;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"de.monochromata.cucumber.report.PrettyReports:build/cucumber"},
+        plugin = {"pretty", "com.epam.reportportal.cucumber.ScenarioReporter"},
         features = "src/test/resources/features",
         glue = "steps"
 )

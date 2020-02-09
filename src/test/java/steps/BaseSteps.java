@@ -1,7 +1,7 @@
 package steps;
 
 import com.codeborne.selenide.Configuration;
-import io.cucumber.java.Before;
+import cucumber.api.java.Before;
 
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.page;

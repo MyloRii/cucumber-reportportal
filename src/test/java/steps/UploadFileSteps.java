@@ -1,7 +1,7 @@
 package steps;
 
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Then;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Then;
 import lombok.AllArgsConstructor;
 import pages.UploadFilePage;
 
