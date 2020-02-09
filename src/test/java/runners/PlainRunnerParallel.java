@@ -1,10 +1,13 @@
 package runners;
 
-import static io.cucumber.core.cli.Main.run;
+
+import java.io.IOException;
+
+import static cucumber.api.cli.Main.run;
 
 public class PlainRunnerParallel {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         String[] params = new String[]{
                 "--threads", "4", "-g", "steps",
                 "-p", "timeline:build/cucumber-parallel-report",

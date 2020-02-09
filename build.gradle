@@ -14,7 +14,6 @@ dependencies {
     testCompile 'info.cukes:gherkin:2.12.2'
     testCompile 'com.epam.reportportal:logger-java-logback:4.0.0'
     compile group: 'io.cucumber', name: 'cucumber-picocontainer', version: '4.0.2'
-    compile group: 'de.monochromata.cucumber', name: 'reporting-plugin', version: '4.0.18'
     compile 'com.epam.reportportal:agent-java-cucumber:4.0.2'
 }
 
